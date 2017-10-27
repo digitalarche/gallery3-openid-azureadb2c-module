@@ -21,14 +21,14 @@ https://github.com/rioriost/kd_gallery3/
 ## How to enable the module in Gallery 3
 
 ### 1. Login Gallery3 as Admin and navigate to Modules page
-![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/1_menu_modules.png
+![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/1_menu_modules.png)
 
 ### 2. Click checkbox for OpenID Azure AD B2C and save
-![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/2_check_openid.png
+![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/2_check_openid.png)
 
 ### 3. OpenID+ Settings
-![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/3_openid_menu.png
-![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/3_openid_settings.png
+![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/3_openid_menu.png)
+![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/3_openid_settings.png)
 
 - Azure AD B2C Tenant Name
 - Azure AD B2C Application ID
@@ -39,4 +39,4 @@ https://github.com/rioriost/kd_gallery3/
 
 ### 5. Login page
 
-![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/4_login_page.png
+![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/4_login_page.png)
