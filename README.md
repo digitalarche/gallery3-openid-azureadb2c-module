@@ -9,10 +9,14 @@ git clone https://github.com/yokawasa/gallery3-openid-azureadb2c-module.git && \
 mv gallery3-openid-azureadb2c-module/openid /gallery3/modules/ && rm -rf gallery3-openid-azureadb2c-module
 ```
 
-## Dockerfile
-
+## Dockerfile and relevant files
+https://github.com/rioriost/kd_gallery3/
 
 ## Configure Azure AD B2C
+
+- [Create Azure AD B2C tenat](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-get-started)
+- [How to Setup Azure AD B2C for Microsoft App](https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [How to Setup Azure AD B2C for Facebook App](https://docs.microsoft.com/ja-jp/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
 
 ## How to enable the module in Gallery 3
 
