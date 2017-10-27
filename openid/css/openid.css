@@ -1,0 +1,61 @@
+button .openid_clipwrapper {
+  position:relative;
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+  display: none;
+}
+
+button .openid_clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button.openid_button {
+  background: #FFF;
+  border: 1px gray solid;
+  margin: 5px;
+  padding: 10px;
+}
+
+button.openid_button:hover {
+  background: #CCC;
+  border: 1px black solid;
+  cursor: pointer;
+}
+
+button#Facebook .openid_clipwrapper,
+button#Microsoft .openid_clipwrapper,
+button#Google .openid_clipwrapper,
+button#WordPress .openid_clipwrapper {
+  display:inline-block;
+}
+
+button #openid_clip_Facebook {
+  clip: rect(0px 80px 16px 64px);
+  left: -64px;
+}
+
+button #openid_clip_Google {
+  clip: rect(0px 112px 16px 96px);
+  left: -96px;
+}
+
+button #openid_clip_Microsoft {
+  clip: rect(0px 336px 16px 320px);
+  left: -320px;
+}
+
+button #openid_clip_WordPress {
+  clip: rect(0px 352px 16px 336px);
+  left: -336px;
+}
+
+#openid_form {
+	width: 580px;
+}
+
+#openid_form legend {
+	font-weight: bold;
+}
