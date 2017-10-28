@@ -1,5 +1,5 @@
 # gallery3-openid-azureadb2c-module
-Gallery3 OpenID Connect Module integrated with Azure AD B2C. The module is an extend the user plugin to also allow OpenID, Facebook, and Microsoft Account verification using Azure AD B2C, and the module is forked from Tomek Kott ( http://kott.fm/tomek/ )'s OpenID+ module version 2.
+This is a Gallery3 module that extend user login experience. The module allows OpenID, Facebook, and Microsoft Account verification using Azure AD B2C. It is forked from Tomek Kott ( http://kott.fm/tomek/ )'s OpenID+ module version 2.
 
 ## How to add the module to Gallery 3 manually
 
@@ -40,3 +40,9 @@ https://github.com/rioriost/kd_gallery3/
 ### 5. Login page
 
 ![](https://github.com/yokawasa/gallery3-openid-azureadb2c-module/raw/master/img/4_login_page.png)
+
+
+## LINKS
+- http://galleryproject.org
+- https://github.com/gallery
+- http://codex.galleryproject.org/Gallery3:Modules:openid
