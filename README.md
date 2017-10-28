@@ -1,5 +1,5 @@
 # gallery3-openid-azureadb2c-module
-[Gallery 3](http://galleryproject.org/) is an open source photo sharing web application, based on PHP and MySQL. This is a Gallery3 module that adds OpenID, Facebook, and Microsoft Account functionality to the login page using Azure AD B2C. It is forked from Tomek Kott ( http://kott.fm/tomek/ )'s OpenID+ module version 2.
+[Gallery 3](http://galleryproject.org/) is an open source photo sharing web application, based on PHP and MySQL. This is a Gallery3 module that adds OpenID, Facebook, and Microsoft Account functionality to the login page using [Azure AD B2C](https://azure.microsoft.com/en-us/services/active-directory-b2c/). It is forked from Tomek Kott ( http://kott.fm/tomek/ )'s OpenID+ module version 2.
 
 ## How to add the module to Gallery 3 manually
 
@@ -46,3 +46,5 @@ https://github.com/rioriost/kd_gallery3/
 - http://galleryproject.org
 - https://github.com/gallery
 - http://codex.galleryproject.org/Gallery3:Modules:openid
+- https://azure.microsoft.com/en-us/services/active-directory-b2c/
+- https://docs.microsoft.com/en-us/azure/active-directory-b2c/
