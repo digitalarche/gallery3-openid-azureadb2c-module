@@ -105,14 +105,14 @@ class openid_Core {
      }
 
      if( empty($id_token) ) {
-
+       $realm  = (!empty($_SERVER['HTTPS'])) ? 'https' : 'http';
        $openid_array = array(
           'p' => $policy,
           'client_id' => $client_id,
           'scope' => 'openid',
           'response_type' => 'id_token',
           'response_mode' => 'form_post',
-          'redirect_uri' => url::site( 'openid/auth','http' ),
+          'redirect_uri' => url::site( 'openid/auth', $realm ),
           'state' => $signin
        );
        $azure_ad_b2c_url = sprintf("https://login.microsoftonline.com/%s.onmicrosoft.com/oauth2/v2.0/authorize?%s", $tenant, http_build_query($openid_array,'','&'));
@@ -336,10 +336,6 @@ class openid_Core {
 
     $firstname =
       (isset($attributes['namePerson/first']) ? $attributes['namePerson/first'] : "");
-    //$lastname =
-    //  (isset($attributes['namePerson/last']) ? $attributes['namePerson/last'] : "");
-    //$full_name = trim($firstname . " " . $lastname);
-    //$full_name = empty($full_name) ? $username : $full_name;
     $full_name =
       ( isset($attributes['namePerson/fullname']) ? $attributes['namePerson/fullname'] : $firstname);
 
